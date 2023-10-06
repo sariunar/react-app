@@ -1,0 +1,9 @@
+@import "../../styles/variables.css";
+
+.contacts {
+    background-color: var(--white);
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    padding: 0 50px;
+}

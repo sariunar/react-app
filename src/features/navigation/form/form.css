@@ -1,0 +1,45 @@
+@import '../../../styles//variables.css';
+
+.errorInput{
+    border-color: red;
+}
+.formContact__title{
+    color: var(--black);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.formContact div{
+    display: grid;
+    margin-bottom: 25px;
+}
+.formContact__textarea{
+    width: 90%;
+    height: 100px;
+    background: var(--color-light-gray);
+    border: 0;
+    }
+.formContact__textarea:focus{
+    outline: none;
+}
+.formContact__button{
+    background-color: var(--yellow);
+    width: 159px;
+    height: 35px;
+    border: 0;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+    color: var(--black);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}

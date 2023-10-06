@@ -1,0 +1,12 @@
+@import "../../styles/variables.css";
+
+.mainInfo {
+    background: var(--white);
+    padding: 37px 47px;
+    margin-top: 50px;
+}
+.headerInfo{
+    width: 438px;
+    margin: 50px auto 0;
+}
+ 

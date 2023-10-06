@@ -1,0 +1,18 @@
+@import '../../../styles/variables.css';
+
+.contactsInformation__title{
+    color: var(--black);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+.contactsInformation__text{
+    display: flex;
+    justify-content: space-between;
+}
+.titleInfo{
+    margin: 0;
+}

@@ -1,0 +1,11 @@
+@import "../../styles/variables.css";
+
+.headerSecondary {
+    color: var(--black);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    text-align: center;
+}

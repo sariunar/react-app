@@ -1,0 +1,24 @@
+@import '../../styles/variables.css';
+
+.input{
+    display: grid;
+}
+.input__label{
+    color: var(--dark-gray);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;  
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.input input{
+    width: 90%;
+    height: 40px;
+    background: var(--color-light-gray);
+    border: 0;
+}
+.input input:focus{
+    outline: none;
+}
