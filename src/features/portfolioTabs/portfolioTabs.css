@@ -1,3 +1,5 @@
+@import "../../styles/variables.css";
+
 .portfolioTabs{
     display: flex;
     justify-content: center;
