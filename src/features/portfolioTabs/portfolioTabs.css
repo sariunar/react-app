@@ -1,0 +1,18 @@
+.portfolioTabs{
+    display: flex;
+    justify-content: center;
+}
+.portfolioTab{
+    margin: 50px 37px 50px 0;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+
+    &:hover{
+        color: var(--yellow);
+    }
+}

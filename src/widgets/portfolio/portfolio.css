@@ -1,7 +1,11 @@
 @import "../../styles/variables.css";
 
 .portfolio {
-    background: var(--white);
     width: 100%;
-    min-height: 600px;
+    margin-bottom: 50px;
+}
+.portfolioWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
