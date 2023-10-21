@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import { Header } from "../../shared/header/header";
 import { Paragraph } from "../../shared/paragraph/paragraph";
-import { WorkCard } from "../../features/navigation/workCard/workCard";
+import { WorkCard } from "../../features/workCard/workCard";
 
 import "./workHistory.css";
 

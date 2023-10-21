@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./form.css";
-import { isValidValue } from "../../../shared/helpers/validator";
-import { Input } from "../../../shared/input/input";
+import { isValidValue } from "../../shared/helpers/validator";
+import { Input } from "../../shared/input/input";
 
 export const Form = () => {
     const [formState, setFormState] = useState({
