@@ -4,4 +4,8 @@
     background: var(--white);
     width: 100%;
     text-align: center;
+    color: var(--black);
+    font-family: Inter;
+    font-size: 15px;
+    text-transform: capitalize;
 }

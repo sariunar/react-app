@@ -43,6 +43,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    cursor: pointer;
+    color: var(--black);
+    font-family: Inter;
+    font-size: 16px;
+}
+.header__button:hover{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
 }
 img{
     width: 100%;
