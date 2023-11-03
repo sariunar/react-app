@@ -5,3 +5,33 @@
     width: 305px;
     min-height: 300px;
 }
+.information__firstBlock{
+    text-align: center;
+    margin: 50px 0;
+}
+.information__name{
+    color: var(--black);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.information__position{
+    color: var(--dark-gray);
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.line{
+    border-bottom: 1px solid var(--color-light-gray);
+    margin: 40px;
+}
+.information__data p{
+    color: var(--black);
+}
+.information__data .skillName{
+    background-color: var(--yellow);
+    padding: 0 10px;
+}

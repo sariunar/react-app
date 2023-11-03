@@ -4,4 +4,6 @@
     width: 108px;
     background-color: var(--color-light-gray);
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }

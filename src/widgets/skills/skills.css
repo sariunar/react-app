@@ -1,0 +1,6 @@
+@import "../../styles/variables.css";
+
+.skill h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}

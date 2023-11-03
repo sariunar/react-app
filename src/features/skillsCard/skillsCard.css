@@ -1,0 +1,16 @@
+@import "../../styles/variables.css";
+
+.skilCard div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.skillName, 
+.skillLevel{
+    color: var(--dark-gray);
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
