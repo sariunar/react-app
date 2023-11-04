@@ -15,39 +15,39 @@ export const PORTFOLIO_TITLE = {
 export const CATEGORIES = ['All categories', 'UI Design', 'Web Templates', 'Logo'];
 export const PORTFOLIO_DATA = [{
     img: ImgNine,
-    link: '/',
+    link: 'https://sariunar.github.io/movies-app/',
     category: CATEGORIES[1],
 },{
     img: ImgOne,
-    link: '/',
+    link: '/project-one',
     category: CATEGORIES[1],
 },{
     img: ImgTwo,
-    link: '/',
+    link: 'https://sariunar.github.io/project_psychology/',
     category: CATEGORIES[1],
 },{
     img: ImgThree,
-    link: '/',
+    link: 'https://sariunar.github.io/Superhero-Characters/superhero.html',
     category: CATEGORIES[2],
 },{
     img: ImgFour,
-    link: '/',
+    link: 'https://sariunar.github.io/calc_price_website/calc_site.html',
     category: CATEGORIES[2],
 },{
     img: ImgFive,
-    link: '/',
+    link: 'https://sariunar.github.io/Travel-site/',
     category: CATEGORIES[2],
 },{
     img: ImgSix,
-    link: '/',
+    link: 'https://sariunar.github.io/Mariela_site/',
     category: CATEGORIES[3],
 },{
     img: ImgSeven,
-    link: '/',
+    link: 'https://sariunar.github.io/random_phrases/phrases.html',
     category: CATEGORIES[3],
 },{
     img: ImgEight,
-    link: '/',
+    link: 'https://sariunar.github.io/Weather_API/weather.html',
     category: CATEGORIES[3],
 },
 ]

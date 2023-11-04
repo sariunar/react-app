@@ -1,7 +1,7 @@
 @import '../../styles/variables.css';
 
 .container {
-    background-color: var(--color-gray);
+    /*background-color: var(--color-gray);*/
     width: 1440px;
     min-height: 100vh;
     margin: 0 auto;
@@ -14,4 +14,11 @@
     display: grid;
     grid-auto-flow: row;
     grid-gap: 70px;
+}
+
+.container_dark{
+    background-color: var(--black);
+}
+.container_light{
+    background-color: var(--color-gray);
 }
