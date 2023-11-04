@@ -1,3 +1,13 @@
+React portfolio website (don't adaptive)
+
+Includes:
+- React
+- react-smooth-scroll
+- react-hook-form
+- portfolio breakdown by category
+
+![image](https://github.com/sariunar/react-app/assets/90380387/260397bc-5526-4d27-a0d7-e7e1fd8d75b8)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
