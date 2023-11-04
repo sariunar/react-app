@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./form.css";
 import { isValidValue } from "../../shared/helpers/validator";
 import { Input } from "../../shared/input/input";
+import { sendFormToEmail } from "../../server/sendFormToEmail";
 
 export const Form = () => {
     const [formState, setFormState] = useState({
@@ -40,8 +41,11 @@ export const Form = () => {
             }
         }
         setFormErrorState(updatedFormErrorState);
-        console.log(error > 0 ? "ERROR" : "SUCCESS");
-    }
+
+        //console.log(error > 0 ? "ERROR" : "SUCCESS");
+
+        error < 1 ? sendFormToEmail(formState) : console.log('Ошибка валидации');
+    };
 
     return (
         <form onSubmit={handleSubmit} className="formContact">

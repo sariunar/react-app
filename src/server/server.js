@@ -1,5 +1,5 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
+const express = require("express"); //запуск сервера
+const nodemailer = require("nodemailer"); // отправка запроса на email
 const cors = require("cors");
 
 const app = express();
@@ -15,15 +15,15 @@ app.post("/api/send-email", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "eljobemail@gmail.com", // Ваша почта Gmail
-      pass: "vwbeafhnrnwntixp", // Пароль от почты Gmail
+      user: "", // Ваша почта Gmail
+      pass: "", // Пароль от почты Gmail
     },
   });
 
   // Настройки письма
   const mailOptions = {
     from: email.value, // Отправитель
-    to: "eljobemail@gmail.com", // Получатель
+    to: "student@mail.com", // Получатель
     subject: subject.value, // Тема письма
     text: `Имя: ${name.value}\nEmail: ${email.value}\nСообщение: 123`, // Текст письма
   };
