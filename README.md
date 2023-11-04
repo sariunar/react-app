@@ -4,6 +4,7 @@ Includes:
 - React
 - react-smooth-scroll
 - react-hook-form
+- react-router-dom
 - portfolio breakdown by category
 
 ![image](https://github.com/sariunar/react-app/assets/90380387/260397bc-5526-4d27-a0d7-e7e1fd8d75b8)
